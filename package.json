@@ -1,0 +1,26 @@
+{
+  "name": "manager.github.io",
+  "version": "1.0.0",
+  "description": "使用node搭建后台管理网站",
+  "main": "app.js",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2682271385/manager.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2682271385/manager.github.io/issues"
+  },
+  "homepage": "https://github.com/2682271385/manager.github.io#readme"
+}
