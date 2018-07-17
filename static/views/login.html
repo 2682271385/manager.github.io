@@ -9,7 +9,6 @@
 
   <!-- Bootstrap -->
   <link href="../lib/css/bootstrap.min.css" rel="stylesheet">
-  <script src='/static/lib/js/jquery.md5.js'> </script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -91,11 +90,5 @@
       console.log('点击')
       $(this).attr('src',$(this).attr('src')+`?${Math.random()}`);
     })
-    $('form button[type=submit]').click(function (event) {
-      let oldPass = $("#inputPassword3").val();
-      var md5 = $.md5(oldPass, 'keyboard cat');
-      $("#userPass").val(md5)
-    })
-    
   })
 </script>
